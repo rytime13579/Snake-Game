@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="200"
+        Width="500">
+
+    <Grid Height="200" Width ="500" VerticalAlignment="Top" Margin="0,0,10,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Welcome to snake game!" Grid.ColumnSpan="2"></Label>
+        <Label Content="Select a difficulty to get started" Margin="0,27,0,0"></Label>
+        <Label Content="Last Score: N\A" Name ="lastScore" Margin="65,9,10,18" Grid.Column="1"/>
+        <Button Content="Easy" Click="startGameEasy" Margin="23,92,156,65" />
+        <Button Content="Medium" Click="startGameMed" Margin="138,92,33,65" RenderTransformOrigin="0.493,0.751"/>
+        <Button Content="Hard" Click="startGameHard" Margin="256,92,140,65" Grid.ColumnSpan="2"/>
+        <Button Content="Insane" Click="startGameInsane" Margin="96,92,25,65" Grid.Column="1"></Button>
+    </Grid>
+
+</Window>
