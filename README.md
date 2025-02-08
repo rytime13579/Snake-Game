@@ -1,6 +1,7 @@
-Plane and simple, snake game in all it's glory. However, this version does feature 4 difficulties which change
-the speed in which the snake moves. 
-This app was created using Microsoft Visual Studio using .NET8.
-You can download the app as an exe in zip form here: 
-      [snake.zip](https://github.com/user-attachments/files/18223230/snake.zip)
-WASD to move the snake NOT arrow keys
+Snake Game – Classic!
+Experience the timeless Snake game in all its glory! This version stays true to the original but introduces four difficulty levels, each affecting the snake's speed for an added challenge.
+Built with .NET 8 in Microsoft Visual Studio
+👉 Download the game (ZIP, EXE included):
+[snake.zip](https://github.com/user-attachments/files/18223230/snake.zip)
+🎮 Controls:
+    WASD to move (Arrow keys are NOT supported)
